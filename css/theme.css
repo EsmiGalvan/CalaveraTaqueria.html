@@ -23,34 +23,31 @@
 19 Footers 
 20 Spacing 
 
- ----------*/
-/*!---------- 1. PADRE SPECIFIC ----------*/
-/* Setup section - 2 photo layout */
-.setup-photos .setup-photo {
+/* Catering options section polish */
+#setup .setup-option {
+  padding-top: 10px;
+}
+
+#setup .setup-photo {
   display: block;
-  margin-bottom: 16px;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 12px 28px rgba(0,0,0,0.12);
 }
 
-.setup-photos .setup-photo img {
+#setup .setup-photo img {
   width: 100%;
-  height: 320px;
+  height: 240px;
   object-fit: cover;
   display: block;
 }
 
 @media (max-width: 991px) {
-  .setup-photos .setup-photo img {
-    height: 260px;
-  }
+  #setup .setup-photo img { height: 210px; }
 }
 
 @media (max-width: 767px) {
-  .setup-photos .setup-photo img {
-    height: 220px;
-  }
+  #setup .setup-photo img { height: 180px; }
 }
 
 
